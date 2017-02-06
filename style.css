@@ -1,0 +1,60 @@
+body {
+	background-color: #37324A;
+	margin: 0;
+	text-align: center;
+	font-size: 32px;
+	font-family: 'Barrio', cursive;
+}
+
+h1 {
+	margin-bottom: 0;
+	color: white;
+}
+
+button {
+	margin: 0;
+	background-color: #37324A;
+	border: 3px solid white;
+}
+
+button {
+	background-color: #37324A;
+	border: 3px solid white;
+	cursor: pointer;
+	color: white;
+	font-size: 16px;
+	padding: 6px 10px;
+}
+
+button:hover {
+	background-color: #1f1c2b;
+  border-color: white;
+  color: white;
+}
+
+button:focus {
+	outline: none;
+}
+
+.row {
+  display: block;
+}
+
+.cell {
+  display: inline-block;
+  background-color: #fff;
+  height: 25px;
+  width: 25px;
+  margin: 0 2px;
+  border-radius: 4px;
+}
+
+#board {
+	margin-top: 40px;
+}
+
+.active {
+  background-color: #7892c2;
+  color: black;
+  border-color: #4e6096;
+}
