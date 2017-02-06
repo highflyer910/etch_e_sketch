@@ -11,6 +11,11 @@ h1 {
 	color: white;
 }
 
+#wrapper {
+	border: 3px solid white;
+	padding-left: 40px;
+}
+
 button {
 	margin: 0;
 	background-color: #37324A;
@@ -42,10 +47,10 @@ button:focus {
 
 .cell {
   display: inline-block;
-  background-color: #fff;
-  height: 25px;
-  width: 25px;
-  margin: 0 2px;
+  background-color: white;
+  height: 30px;
+  width: 30px;
+  margin: 0 3px;
   border-radius: 4px;
 }
 
@@ -54,7 +59,7 @@ button:focus {
 }
 
 .active {
-  background-color: #7892c2;
-  color: black;
-  border-color: #4e6096;
+  background-color: #5e557f;
+  color: white;
+  border-color: white;
 }
